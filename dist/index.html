@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinity Core Fitness</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <nav class="bg-gray-400">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden"></div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="flex flex-shrink-0 items-center">
+                <img class="h-14 w-auto" src="./img/TCF1.PNG" alt="Trinity Core Fitness">
+              </div>
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex space-x-4">
+                  
+                  <a href="./index.html" class=" text-white hover:bg-blue-300 rounded-lg px-3 py-2 text-sm font-medium" aria-current="page">Dashboard</a>
+                  <a href="./about.html" class="text-white hover:bg-blue-300 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About Me</a>
+                  <!-- <a href="./contact.html" class="text-white hover:bg-blue-300 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact Me</a> -->
+                  
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </nav> 
+      <!-- End Nav Bar -->
+
+        
+      <div class="flex h-screen text-blue-300 text-3xl space-x-4 space-y-8">
+        <div class="m-auto">
+          <h3>
+            "Whatever you do, work at it with all your heart, as working for the Lord, <br> <br> not for human masters, since you know that you will receive an inheritance <br> <br> from the Lord as a reward. It is the Lord Christ you are serving." <br><br>Colossians 3:23-24
+            </h3>
+<br>
+        </div>
+      </div>
+
+      
+      <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+      <script>
+    
+        window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+           
+        formbutton("create", {
+          action: "https://formspree.io/f/xnqewrbr",
+          title: "Contact Me",
+          fields: [
+            { 
+              type: "email", 
+              label: "Email:", 
+              name: "email",
+              required: true,
+              placeholder: "your@email.com"
+            },
+            {
+              type: "textarea",
+              label: "Message:",
+              name: "message",
+              placeholder: "Leave a comment...?",
+            },
+            { type: "submit" }      
+          ],
+          styles: {
+            title: {
+              backgroundColor: "blue"
+            },
+            button: {
+              backgroundColor: "red"
+            }
+          }
+        });
+      </script>
+</body>
+</html> 
+</body>
+</html>
